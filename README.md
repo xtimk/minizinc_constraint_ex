@@ -39,4 +39,6 @@ In details, the input of this models consists in:
  - the desired length of each encoded word
  - the number of words that we want to encode
  - the minimum hamming distance that we want between words
- 
+
+## Haplotype inference by pure parsimony
+Given a set of genotypes, the problem is to find `H = {set of haplotypes}` such that the genotype set is explained by `H`
