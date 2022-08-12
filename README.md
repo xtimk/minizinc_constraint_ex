@@ -42,3 +42,14 @@ In details, the input of this models consists in:
 
 ## Haplotype inference by pure parsimony
 Given a set of genotypes, the problem is to find `H = {set of haplotypes}` such that the genotype set is explained by `H`
+
+## Protein structure prediction
+A slightly simplified version of the protein structure prediction problem.
+
+Given a protein as a list of amino acids (only 2 types of amino acids are allowed in this model = {0,1}) predict the shape of the protein in a 2d space.
+
+In general the protein will have a shape that maximize/minimize the energy. We maximize if we consider energy as a positive number and we minimize if we consider energy as a negative number.
+
+Note that the two approaches are totally equivalent.
+
+In our problem we will maximize energy: we add 1 to our energy only if two amino acids are at distance 1 and are both = 1.
