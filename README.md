@@ -53,3 +53,8 @@ In general the protein will have a shape that maximize/minimize the energy. We m
 Note that the two approaches are totally equivalent.
 
 In our problem we will maximize energy: we add 1 to our energy only if two amino acids are at distance 1 and are both = 1.
+
+## Travel Salesman Problem (TSP)
+The classic TSP problem: find an Hamiltonian circuit on a given weighted graph
+
+In the example input i've used some cities near my home.
