@@ -41,7 +41,7 @@ In details, the input of this models consists in:
  - the minimum hamming distance that we want between words
 
 ## Haplotype inference by pure parsimony
-Given a set of genotypes, the problem is to find `H = {set of haplotypes}` such that the genotype set is explained by `H`
+Given a set of genotypes, the problem is to find the minimum set `H = {set of haplotypes}` such that the genotype set is explained by `H`
 
 ## Protein structure prediction
 A slightly simplified version of the protein structure prediction problem.
