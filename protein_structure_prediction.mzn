@@ -1,6 +1,8 @@
 %% Protein structure prediction
 include "globals.mzn";
 
+include "minisearch.mzn";
+
 int: n = 16;
 %% here input the protein as a list of amino acids. Only two amino acids are allowed (0,1)
 array [1..n] of var 0..1: protein = 
