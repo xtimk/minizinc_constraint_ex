@@ -58,3 +58,18 @@ In our problem we will maximize energy: we add 1 to our energy only if two amino
 The classic TSP problem: find an Hamiltonian circuit on a given weighted graph
 
 In the example input i've used some cities near my home.
+
+## Cumulative Task Scheduling
+Classic problem of scheduling multiple jobs/tasks. Each task requires a certain time to be completed, and also requires a certain number of resources/employees.
+
+In this model the input is:
+ - Set of tasks: for each task you also need to specify how much time (e.g. hours) is needed and how much resources are needed in order to complete the task
+ - Total time available (E.g: total hours available)
+ - The total resources available (e.g. The total number of employees of the company)
+
+You can also specify some ordering costraints. For example: Task 1 cannot be executed before the Task 2 is completed.
+
+Then this model can solve these problems:
+ - find a schedule that minimizes total time needed
+ - find a schedule that minimizes total resources needed
+ - find a schedule that minimizes a sort of "total cost": `total_time * resources`
